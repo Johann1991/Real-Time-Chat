@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <!-- Chat interface -->
+    <div>
+      <h1>Real-Time Chat</h1>
+      <div>
+        <input [(ngModel)]="username" placeholder="Enter your username">
+      </div>
+      <ul>
+        <li *ngFor="let message of messages">{{ message }}</li>
+      </ul>
+      <input [(ngModel)]="message" placeholder="Type a message">
+      <button (click)="sendMessage()">Send</button>
+    </div>
+</body>
+</html>
+
+
+

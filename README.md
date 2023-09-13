@@ -1,7 +1,3 @@
-Absolutely, a well-documented README is invaluable for any project. Here's a sample README for the real-time chat application you just created:
-
----
-
 # Real-Time Chat Application
 
 ## Overview
